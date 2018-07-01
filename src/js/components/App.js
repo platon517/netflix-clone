@@ -21,7 +21,7 @@ export class App extends Component{
               Sign in
             </a>
             <a className="logo">
-              <img className="logo__pic" src="/src/img/logo.svg"/>
+              <img className="logo__pic" src="src/img/logo.svg"/>
             </a>
             <div className="info__main">
               <h1>See what’s next.</h1>
@@ -72,7 +72,7 @@ export class App extends Component{
             <MainButton/>
           </div>
           <div className="bottom-info__block bottom-info__img">
-            <img src="/src/img/asset1.png"/>
+            <img src="src/img/asset1.png"/>
           </div>
         </div>
         <div className="bottom-info bottom-info__2">
@@ -88,17 +88,17 @@ export class App extends Component{
           </div>
           <div className="child">
             <div className="img_block">
-              <img src="/src/img/asset_2_1.png" />
+              <img src="src/img/asset_2_1.png" />
               <h3>Watch on your TV</h3>
               <p>Smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
             </div>
             <div className="img_block">
-              <img src="/src/img/asset_2_2.png" />
+              <img src="src/img/asset_2_2.png" />
               <h3>Watch instantly or<br/>download for later</h3>
               <p>Available on phone and tablet, wherever you go.</p>
             </div>
             <div className="img_block">
-              <img src="/src/img/asset_2_3.png" />
+              <img src="src/img/asset_2_3.png" />
               <h3>Use any computer</h3>
               <p>Watch right on Netflix.com.</p>
             </div>
