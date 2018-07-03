@@ -1,26 +1,17 @@
 import React, {Component} from 'react';
-import {connect} from 'react-redux';
+import MovieList from './MovieList';
+import FavMovieList from './FavMovieList';
 
-class ReduxTest extends Component {
+export default class ReduxTest extends Component {
   constructor(props){
     super(props);
-    this.state = {
-
-    }
   }
   render(){
     return(
-      <div>{this.props.user}<br/>{this.props.phrase}</div>
+      <div>
+        <MovieList />
+        <FavMovieList/>
+      </div>
     );
   };
 }
-
-function state_to_props (state) {
-  console.log(state);
-  return {
-    user: state.names.user,
-    phrase: state.phrases.phrase
-  }
-}
-
-export default connect(state_to_props)(ReduxTest);
