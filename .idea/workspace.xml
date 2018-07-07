@@ -3,23 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="337236ea-1f6a-4e63-a269-ced269ebb356" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" afterPath="$PROJECT_DIR$/dist/index.html" />
       <change beforePath="$PROJECT_DIR$/dist/main.js" afterPath="$PROJECT_DIR$/dist/main.js" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" afterPath="$PROJECT_DIR$/src/index.html" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" afterPath="$PROJECT_DIR$/src/index.js" />
-      <change beforePath="$PROJECT_DIR$/src/js/components/AddMovie.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/js/components/App.js" afterPath="$PROJECT_DIR$/src/js/components/App.js" />
-      <change beforePath="$PROJECT_DIR$/src/js/components/FavMovieList.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/js/components/MainButton.js" afterPath="$PROJECT_DIR$/src/js/components/MainButton.js" />
-      <change beforePath="$PROJECT_DIR$/src/js/components/MovieLine.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/js/components/MovieList.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/js/components/ReduxTest.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/js/redux/actions/add_movie.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/js/redux/actions/async_test.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/js/redux/actions/push_fav.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/js/redux/constants/constants.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/js/redux/reducers/Reducer.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/js/redux/reducers/combReducer.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/style.scss" afterPath="$PROJECT_DIR$/src/style.scss" />
+      <change beforePath="$PROJECT_DIR$/dist/style.bundle.css" afterPath="$PROJECT_DIR$/dist/style.bundle.css" />
+      <change beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -74,12 +61,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/style.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="193">
               <caret line="310" column="0" lean-forward="false" selection-start-line="310" selection-start-column="0" selection-end-line="310" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="630">
+              <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+              <folding>
+                <marker date="1530972589128" expanded="true" signature="432:1036" ph="{&quot;babel-core&quot;: &quot;^6.26.3&quot;...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -117,7 +116,6 @@
       <list>
         <option value="$PROJECT_DIR$/src/style.sass" />
         <option value="$PROJECT_DIR$/dist/index.html" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/js/components/Test.js" />
         <option value="$PROJECT_DIR$/src/root.scss" />
         <option value="$PROJECT_DIR$/webpack.config.js" />
@@ -146,6 +144,7 @@
         <option value="$PROJECT_DIR$/src/js/components/App.js" />
         <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/src/style.scss" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -194,6 +193,11 @@
             <path>
               <item name="netflix-react-webpack-babel" type="b2602c69:ProjectViewProjectNode" />
               <item name="netflix-react-webpack-babel" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="netflix-react-webpack-babel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netflix-react-webpack-babel" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="dist" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="netflix-react-webpack-babel" type="b2602c69:ProjectViewProjectNode" />
@@ -262,12 +266,12 @@
       <updated>1530452343453</updated>
       <workItem from="1530452344702" duration="39367000" />
       <workItem from="1530725544188" duration="3786000" />
-      <workItem from="1530819147007" duration="1815000" />
+      <workItem from="1530819147007" duration="1935000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44968000" />
+    <option name="totallyTimeSpent" value="45088000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -475,23 +479,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dist/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="43" column="1" lean-forward="false" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
-          <folding>
-            <marker date="1530656154759" expanded="true" signature="432:1116" ph="{&quot;babel-core&quot;: &quot;^6.26.3&quot;...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webpack.config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="641">
@@ -632,6 +619,24 @@
         <state relative-caret-position="193">
           <caret line="310" column="0" lean-forward="false" selection-start-line="310" selection-start-column="0" selection-end-line="310" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding>
+            <marker date="1530972589128" expanded="true" signature="432:1036" ph="{&quot;babel-core&quot;: &quot;^6.26.3&quot;...}" />
+          </folding>
         </state>
       </provider>
     </entry>
