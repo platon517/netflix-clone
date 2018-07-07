@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import {MainButton} from "./MainButton";
-import ReduxTest from "./ReduxTest";
 
 
 export class App extends Component{
@@ -112,7 +111,6 @@ export class App extends Component{
               Choose one plan and watch everything on Netflix.
             </p>
             <MainButton/>
-            <ReduxTest/>
           </div>
           <div className="child">
           </div>
