@@ -1,7 +1,7 @@
 import React from 'react';
 import {MainButton} from "./MainButton";
 
-export function PromoScreen (props) {
+export function PromoScreen () {
   return(
     <div className="promo-screen">
       <div className="info">
