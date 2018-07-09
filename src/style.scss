@@ -293,6 +293,7 @@ body, html{
   flex-direction: column;
   margin-bottom: 0!important;
   .child{
+    align-items: baseline;
     .bottom-info__block{
       flex-grow: 1;
       .bottom-info__p{
