@@ -3,8 +3,922 @@
   <component name="ChangeListManager">
     <list default="true" id="337236ea-1f6a-4e63-a269-ced269ebb356" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" afterPath="$PROJECT_DIR$/dist/index.html" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" afterPath="$PROJECT_DIR$/src/index.html" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/har-validator" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caseless/index.js" afterPath="$PROJECT_DIR$/node_modules/caseless/index.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caseless/package.json" afterPath="$PROJECT_DIR$/node_modules/caseless/package.json" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caseless/test.js" afterPath="$PROJECT_DIR$/node_modules/caseless/test.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/commander/CHANGELOG.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/commander/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/commander/Readme.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/commander/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/commander/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/commander/typings/index.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/generate-function/.npmignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/generate-function/.travis.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/generate-function/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/generate-function/example.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/generate-function/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/generate-function/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/generate-function/test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/generate-object-property/.npmignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/generate-object-property/.travis.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/generate-object-property/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/generate-object-property/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/generate-object-property/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/generate-object-property/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/generate-object-property/test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/har-validator/README.md" afterPath="$PROJECT_DIR$/node_modules/har-validator/README.md" />
+      <change beforePath="$PROJECT_DIR$/node_modules/har-validator/bin/har-validator" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/har-validator/lib/async.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/har-validator/lib/error.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/har-validator/lib/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/har-validator/lib/runner.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/har-validator/lib/schemas/cache.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/har-validator/lib/schemas/cacheEntry.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/har-validator/lib/schemas/content.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/har-validator/lib/schemas/cookie.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/har-validator/lib/schemas/creator.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/har-validator/lib/schemas/entry.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/har-validator/lib/schemas/har.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/har-validator/lib/schemas/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/har-validator/lib/schemas/log.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/har-validator/lib/schemas/page.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/har-validator/lib/schemas/pageTimings.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/har-validator/lib/schemas/postData.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/har-validator/lib/schemas/record.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/har-validator/lib/schemas/request.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/har-validator/lib/schemas/response.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/har-validator/lib/schemas/timings.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/har-validator/node_modules/ansi-regex/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/har-validator/node_modules/ansi-regex/license" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/har-validator/node_modules/ansi-regex/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/har-validator/node_modules/ansi-regex/readme.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/har-validator/node_modules/ansi-styles/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/har-validator/node_modules/ansi-styles/license" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/har-validator/node_modules/ansi-styles/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/har-validator/node_modules/ansi-styles/readme.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/har-validator/node_modules/chalk/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/har-validator/node_modules/chalk/license" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/har-validator/node_modules/chalk/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/har-validator/node_modules/chalk/readme.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/har-validator/node_modules/strip-ansi/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/har-validator/node_modules/strip-ansi/license" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/har-validator/node_modules/strip-ansi/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/har-validator/node_modules/strip-ansi/readme.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/har-validator/node_modules/supports-color/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/har-validator/node_modules/supports-color/license" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/har-validator/node_modules/supports-color/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/har-validator/node_modules/supports-color/readme.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/har-validator/package.json" afterPath="$PROJECT_DIR$/node_modules/har-validator/package.json" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hoist-non-react-statics/LICENSE.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hoist-non-react-statics/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hoist-non-react-statics/index.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hoist-non-react-statics/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/hoist-non-react-statics/src/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-my-ip-valid/fixtures/invalid-ipv4-addresses.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-my-ip-valid/fixtures/invalid-ipv6-addresses.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-my-ip-valid/fixtures/valid-ipv4-addresses.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-my-ip-valid/fixtures/valid-ipv6-addresses.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-my-ip-valid/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-my-ip-valid/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-my-ip-valid/readme.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-my-ip-valid/test.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-my-json-valid/.travis.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-my-json-valid/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-my-json-valid/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-my-json-valid/example.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-my-json-valid/formats.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-my-json-valid/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-my-json-valid/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-my-json-valid/require.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-my-json-valid/test/fixtures/cosmic.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-my-json-valid/test/json-schema-draft4/additionalItems.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-my-json-valid/test/json-schema-draft4/additionalProperties.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-my-json-valid/test/json-schema-draft4/allOf.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-my-json-valid/test/json-schema-draft4/anyOf.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-my-json-valid/test/json-schema-draft4/bignum.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-my-json-valid/test/json-schema-draft4/default.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-my-json-valid/test/json-schema-draft4/definitions.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-my-json-valid/test/json-schema-draft4/dependencies.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-my-json-valid/test/json-schema-draft4/enum.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-my-json-valid/test/json-schema-draft4/format.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-my-json-valid/test/json-schema-draft4/items.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-my-json-valid/test/json-schema-draft4/maxItems.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-my-json-valid/test/json-schema-draft4/maxLength.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-my-json-valid/test/json-schema-draft4/maxProperties.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-my-json-valid/test/json-schema-draft4/maximum.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-my-json-valid/test/json-schema-draft4/minItems.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-my-json-valid/test/json-schema-draft4/minLength.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-my-json-valid/test/json-schema-draft4/minProperties.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-my-json-valid/test/json-schema-draft4/minimum.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-my-json-valid/test/json-schema-draft4/multipleOf.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-my-json-valid/test/json-schema-draft4/not.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-my-json-valid/test/json-schema-draft4/nullAndFormat.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-my-json-valid/test/json-schema-draft4/nullAndObject.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-my-json-valid/test/json-schema-draft4/oneOf.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-my-json-valid/test/json-schema-draft4/pattern.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-my-json-valid/test/json-schema-draft4/patternProperties.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-my-json-valid/test/json-schema-draft4/properties.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-my-json-valid/test/json-schema-draft4/ref.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-my-json-valid/test/json-schema-draft4/refRemote.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-my-json-valid/test/json-schema-draft4/required.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-my-json-valid/test/json-schema-draft4/type.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-my-json-valid/test/json-schema-draft4/uniqueItems.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-my-json-valid/test/json-schema.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-my-json-valid/test/misc.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-my-json-valid/test/safe-regex.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-my-json-valid/test/schema-path.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-property/.npmignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-property/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-property/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-property/is-property.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-property/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jsonpointer/LICENSE.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jsonpointer/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jsonpointer/jsonpointer.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jsonpointer/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_DataView.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_Hash.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_LazyWrapper.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_ListCache.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_LodashWrapper.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_Map.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_MapCache.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_Promise.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_Set.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_SetCache.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_Stack.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_Symbol.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_Uint8Array.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_WeakMap.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_addMapEntry.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_addSetEntry.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_apply.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_arrayAggregator.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_arrayEach.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_arrayEachRight.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_arrayEvery.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_arrayFilter.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_arrayIncludes.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_arrayIncludesWith.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_arrayLikeKeys.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_arrayMap.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_arrayPush.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_arrayReduce.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_arrayReduceRight.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_arraySample.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_arraySampleSize.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_arrayShuffle.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_arraySome.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_asciiSize.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_asciiToArray.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_asciiWords.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_assignMergeValue.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_assignValue.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_assocIndexOf.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_baseAggregator.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_baseAssign.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_baseAssignIn.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_baseAssignValue.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_baseAt.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_baseClamp.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_baseClone.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_baseConforms.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_baseConformsTo.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_baseCreate.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_baseDelay.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_baseDifference.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_baseEach.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_baseEachRight.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_baseEvery.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_baseExtremum.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_baseFill.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_baseFilter.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_baseFindIndex.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_baseFindKey.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_baseFlatten.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_baseFor.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_baseForOwn.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_baseForOwnRight.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_baseForRight.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_baseFunctions.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_baseGet.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_baseGetAllKeys.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_baseGetTag.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_baseGt.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_baseHas.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_baseHasIn.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_baseInRange.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_baseIndexOf.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_baseIndexOfWith.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_baseIntersection.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_baseInverter.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_baseInvoke.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_baseIsArguments.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_baseIsArrayBuffer.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_baseIsDate.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_baseIsEqual.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_baseIsEqualDeep.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_baseIsMap.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_baseIsMatch.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_baseIsNaN.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_baseIsNative.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_baseIsRegExp.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_baseIsSet.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_baseIsTypedArray.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_baseIteratee.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_baseKeys.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_baseKeysIn.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_baseLodash.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_baseLt.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_baseMap.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_baseMatches.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_baseMatchesProperty.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_baseMean.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_baseMerge.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_baseMergeDeep.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_baseNth.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_baseOrderBy.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_basePick.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_basePickBy.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_baseProperty.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_basePropertyDeep.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_basePropertyOf.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_basePullAll.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_basePullAt.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_baseRandom.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_baseRange.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_baseReduce.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_baseRepeat.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_baseRest.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_baseSample.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_baseSampleSize.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_baseSet.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_baseSetData.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_baseSetToString.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_baseShuffle.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_baseSlice.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_baseSome.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_baseSortBy.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_baseSortedIndex.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_baseSortedIndexBy.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_baseSortedUniq.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_baseSum.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_baseTimes.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_baseToNumber.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_baseToPairs.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_baseToString.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_baseUnary.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_baseUniq.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_baseUnset.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_baseUpdate.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_baseValues.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_baseWhile.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_baseWrapperValue.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_baseXor.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_baseZipObject.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_cacheHas.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_castArrayLikeObject.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_castFunction.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_castPath.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_castRest.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_castSlice.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_charsEndIndex.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_charsStartIndex.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_cloneArrayBuffer.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_cloneBuffer.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_cloneDataView.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_cloneMap.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_cloneRegExp.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_cloneSet.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_cloneSymbol.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_cloneTypedArray.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_compareAscending.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_compareMultiple.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_composeArgs.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_composeArgsRight.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_copyArray.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_copyObject.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_copySymbols.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_copySymbolsIn.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_coreJsData.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_countHolders.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_createAggregator.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_createAssigner.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_createBaseEach.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_createBaseFor.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_createBind.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_createCaseFirst.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_createCompounder.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_createCtor.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_createCurry.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_createFind.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_createFlow.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_createHybrid.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_createInverter.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_createMathOperation.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_createOver.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_createPadding.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_createPartial.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_createRange.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_createRecurry.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_createRelationalOperation.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_createRound.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_createSet.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_createToPairs.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_createWrap.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_customDefaultsAssignIn.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_customDefaultsMerge.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_customOmitClone.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_deburrLetter.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_defineProperty.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_equalArrays.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_equalByTag.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_equalObjects.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_escapeHtmlChar.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_escapeStringChar.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_flatRest.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_freeGlobal.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_getAllKeys.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_getAllKeysIn.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_getData.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_getFuncName.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_getHolder.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_getMapData.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_getMatchData.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_getNative.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_getPrototype.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_getRawTag.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_getSymbols.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_getSymbolsIn.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_getTag.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_getValue.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_getView.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_getWrapDetails.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_hasPath.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_hasUnicode.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_hasUnicodeWord.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_hashClear.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_hashDelete.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_hashGet.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_hashHas.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_hashSet.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_initCloneArray.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_initCloneByTag.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_initCloneObject.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_insertWrapDetails.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_isFlattenable.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_isIndex.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_isIterateeCall.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_isKey.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_isKeyable.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_isLaziable.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_isMaskable.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_isMasked.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_isPrototype.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_isStrictComparable.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_iteratorToArray.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_lazyClone.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_lazyReverse.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_lazyValue.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_listCacheClear.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_listCacheDelete.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_listCacheGet.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_listCacheHas.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_listCacheSet.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_mapCacheClear.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_mapCacheDelete.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_mapCacheGet.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_mapCacheHas.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_mapCacheSet.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_mapToArray.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_matchesStrictComparable.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_memoizeCapped.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_mergeData.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_metaMap.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_nativeCreate.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_nativeKeys.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_nativeKeysIn.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_nodeUtil.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_objectToString.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_overArg.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_overRest.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_parent.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_reEscape.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_reEvaluate.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_reInterpolate.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_realNames.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_reorder.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_replaceHolders.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_root.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_safeGet.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_setCacheAdd.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_setCacheHas.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_setData.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_setToArray.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_setToPairs.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_setToString.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_setWrapToString.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_shortOut.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_shuffleSelf.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_stackClear.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_stackDelete.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_stackGet.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_stackHas.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_stackSet.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_strictIndexOf.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_strictLastIndexOf.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_stringSize.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_stringToArray.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_stringToPath.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_toKey.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_toSource.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_unescapeHtmlChar.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_unicodeSize.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_unicodeToArray.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_unicodeWords.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_updateWrapDetails.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/_wrapperClone.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/add.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/after.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/array.default.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/array.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/ary.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/assign.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/assignIn.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/assignInWith.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/assignWith.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/at.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/attempt.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/before.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/bind.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/bindAll.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/bindKey.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/camelCase.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/capitalize.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/castArray.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/ceil.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/chain.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/chunk.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/clamp.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/clone.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/cloneDeep.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/cloneDeepWith.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/cloneWith.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/collection.default.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/collection.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/commit.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/compact.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/concat.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/cond.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/conforms.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/conformsTo.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/constant.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/countBy.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/create.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/curry.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/curryRight.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/date.default.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/date.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/debounce.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/deburr.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/defaultTo.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/defaults.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/defaultsDeep.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/defer.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/delay.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/difference.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/differenceBy.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/differenceWith.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/divide.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/drop.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/dropRight.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/dropRightWhile.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/dropWhile.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/each.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/eachRight.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/endsWith.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/entries.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/entriesIn.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/eq.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/escape.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/escapeRegExp.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/every.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/extend.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/extendWith.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/fill.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/filter.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/find.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/findIndex.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/findKey.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/findLast.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/findLastIndex.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/findLastKey.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/first.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/flatMap.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/flatMapDeep.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/flatMapDepth.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/flatten.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/flattenDeep.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/flattenDepth.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/flip.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/floor.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/flow.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/flowRight.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/forEach.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/forEachRight.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/forIn.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/forInRight.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/forOwn.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/forOwnRight.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/fromPairs.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/function.default.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/function.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/functions.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/functionsIn.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/get.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/groupBy.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/gt.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/gte.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/has.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/hasIn.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/head.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/identity.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/inRange.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/includes.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/indexOf.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/initial.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/intersection.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/intersectionBy.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/intersectionWith.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/invert.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/invertBy.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/invoke.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/invokeMap.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/isArguments.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/isArray.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/isArrayBuffer.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/isArrayLike.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/isArrayLikeObject.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/isBoolean.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/isBuffer.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/isDate.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/isElement.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/isEmpty.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/isEqual.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/isEqualWith.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/isError.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/isFinite.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/isFunction.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/isInteger.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/isLength.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/isMap.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/isMatch.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/isMatchWith.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/isNaN.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/isNative.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/isNil.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/isNull.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/isNumber.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/isObject.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/isObjectLike.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/isPlainObject.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/isRegExp.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/isSafeInteger.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/isSet.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/isString.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/isSymbol.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/isTypedArray.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/isUndefined.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/isWeakMap.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/isWeakSet.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/iteratee.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/join.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/kebabCase.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/keyBy.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/keys.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/keysIn.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/lang.default.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/lang.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/last.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/lastIndexOf.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/lodash.default.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/lodash.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/lowerCase.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/lowerFirst.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/lt.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/lte.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/map.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/mapKeys.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/mapValues.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/matches.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/matchesProperty.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/math.default.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/math.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/max.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/maxBy.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/mean.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/meanBy.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/memoize.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/merge.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/mergeWith.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/method.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/methodOf.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/minBy.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/mixin.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/multiply.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/negate.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/next.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/noop.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/now.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/nth.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/nthArg.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/number.default.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/number.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/object.default.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/object.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/omit.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/omitBy.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/once.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/orderBy.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/over.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/overArgs.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/overEvery.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/overSome.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/pad.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/padEnd.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/padStart.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/parseInt.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/partial.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/partialRight.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/partition.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/pick.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/pickBy.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/plant.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/property.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/propertyOf.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/pull.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/pullAll.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/pullAllBy.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/pullAllWith.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/pullAt.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/random.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/range.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/rangeRight.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/rearg.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/reduce.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/reduceRight.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/reject.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/remove.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/repeat.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/replace.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/rest.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/result.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/reverse.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/round.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/sample.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/sampleSize.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/seq.default.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/seq.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/set.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/setWith.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/shuffle.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/size.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/slice.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/snakeCase.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/some.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/sortBy.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/sortedIndex.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/sortedIndexBy.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/sortedIndexOf.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/sortedLastIndex.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/sortedLastIndexBy.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/sortedLastIndexOf.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/sortedUniq.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/sortedUniqBy.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/split.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/spread.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/startCase.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/startsWith.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/string.default.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/string.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/stubArray.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/stubFalse.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/stubObject.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/stubString.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/stubTrue.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/subtract.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/sum.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/sumBy.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/tail.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/take.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/takeRight.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/takeRightWhile.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/takeWhile.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/tap.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/template.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/templateSettings.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/throttle.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/thru.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/times.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/toArray.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/toFinite.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/toInteger.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/toIterator.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/toJSON.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/toLength.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/toLower.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/toNumber.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/toPairs.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/toPairsIn.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/toPath.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/toPlainObject.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/toSafeInteger.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/toString.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/toUpper.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/transform.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/trim.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/trimEnd.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/trimStart.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/truncate.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/unary.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/unescape.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/union.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/unionBy.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/unionWith.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/uniq.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/uniqBy.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/uniqWith.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/uniqueId.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/unset.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/unzip.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/unzipWith.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/update.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/updateWith.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/upperCase.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/upperFirst.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/util.default.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/util.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/value.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/valueOf.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/values.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/valuesIn.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/without.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/words.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/wrap.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/wrapperAt.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/wrapperChain.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/wrapperLodash.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/wrapperReverse.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/wrapperValue.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/xor.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/xorBy.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/xorWith.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/zip.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/zipObject.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/zipObjectDeep.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash-es/zipWith.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-sass/README.md" afterPath="$PROJECT_DIR$/node_modules/node-sass/README.md" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-sass/bin/node-sass" afterPath="$PROJECT_DIR$/node_modules/node-sass/bin/node-sass" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-sass/lib/errors.js" afterPath="$PROJECT_DIR$/node_modules/node-sass/lib/errors.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-sass/package.json" afterPath="$PROJECT_DIR$/node_modules/node-sass/package.json" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-sass/vendor/darwin-x64-48/binding.node" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-redux/CHANGELOG.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-redux/LICENSE.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-redux/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-redux/dist/react-redux.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-redux/dist/react-redux.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-redux/es/components/Provider.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-redux/es/components/connectAdvanced.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-redux/es/connect/connect.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-redux/es/connect/mapDispatchToProps.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-redux/es/connect/mapStateToProps.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-redux/es/connect/mergeProps.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-redux/es/connect/selectorFactory.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-redux/es/connect/verifySubselectors.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-redux/es/connect/wrapMapToProps.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-redux/es/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-redux/es/utils/PropTypes.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-redux/es/utils/Subscription.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-redux/es/utils/shallowEqual.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-redux/es/utils/verifyPlainObject.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-redux/es/utils/warning.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-redux/es/utils/wrapActionCreators.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-redux/lib/components/Provider.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-redux/lib/components/connectAdvanced.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-redux/lib/connect/connect.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-redux/lib/connect/mapDispatchToProps.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-redux/lib/connect/mapStateToProps.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-redux/lib/connect/mergeProps.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-redux/lib/connect/selectorFactory.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-redux/lib/connect/verifySubselectors.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-redux/lib/connect/wrapMapToProps.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-redux/lib/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-redux/lib/utils/PropTypes.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-redux/lib/utils/Subscription.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-redux/lib/utils/shallowEqual.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-redux/lib/utils/verifyPlainObject.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-redux/lib/utils/warning.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-redux/lib/utils/wrapActionCreators.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-redux/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-redux/src/components/Provider.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-redux/src/components/connectAdvanced.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-redux/src/connect/connect.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-redux/src/connect/mapDispatchToProps.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-redux/src/connect/mapStateToProps.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-redux/src/connect/mergeProps.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-redux/src/connect/selectorFactory.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-redux/src/connect/verifySubselectors.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-redux/src/connect/wrapMapToProps.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-redux/src/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-redux/src/utils/PropTypes.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-redux/src/utils/Subscription.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-redux/src/utils/shallowEqual.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-redux/src/utils/verifyPlainObject.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-redux/src/utils/warning.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/react-redux/src/utils/wrapActionCreators.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/redux-thunk/LICENSE.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/redux-thunk/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/redux-thunk/dist/redux-thunk.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/redux-thunk/dist/redux-thunk.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/redux-thunk/es/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/redux-thunk/index.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/redux-thunk/lib/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/redux-thunk/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/redux-thunk/src/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/redux/CHANGELOG.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/redux/LICENSE.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/redux/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/redux/dist/redux.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/redux/dist/redux.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/redux/es/redux.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/redux/index.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/redux/lib/redux.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/redux/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/redux/src/applyMiddleware.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/redux/src/bindActionCreators.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/redux/src/combineReducers.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/redux/src/compose.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/redux/src/createStore.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/redux/src/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/redux/src/utils/actionTypes.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/redux/src/utils/isPlainObject.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/redux/src/utils/warning.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/request/CHANGELOG.md" afterPath="$PROJECT_DIR$/node_modules/request/CHANGELOG.md" />
+      <change beforePath="$PROJECT_DIR$/node_modules/request/README.md" afterPath="$PROJECT_DIR$/node_modules/request/README.md" />
+      <change beforePath="$PROJECT_DIR$/node_modules/request/index.js" afterPath="$PROJECT_DIR$/node_modules/request/index.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/request/lib/auth.js" afterPath="$PROJECT_DIR$/node_modules/request/lib/auth.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/request/lib/cookies.js" afterPath="$PROJECT_DIR$/node_modules/request/lib/cookies.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/request/lib/getProxyFromURI.js" afterPath="$PROJECT_DIR$/node_modules/request/lib/getProxyFromURI.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/request/lib/har.js" afterPath="$PROJECT_DIR$/node_modules/request/lib/har.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/request/lib/helpers.js" afterPath="$PROJECT_DIR$/node_modules/request/lib/helpers.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/request/lib/multipart.js" afterPath="$PROJECT_DIR$/node_modules/request/lib/multipart.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/request/lib/oauth.js" afterPath="$PROJECT_DIR$/node_modules/request/lib/oauth.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/request/lib/querystring.js" afterPath="$PROJECT_DIR$/node_modules/request/lib/querystring.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/request/lib/redirect.js" afterPath="$PROJECT_DIR$/node_modules/request/lib/redirect.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/request/lib/tunnel.js" afterPath="$PROJECT_DIR$/node_modules/request/lib/tunnel.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/request/node_modules/qs/.eslintignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/request/node_modules/qs/.eslintrc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/request/node_modules/qs/CHANGELOG.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/request/node_modules/qs/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/request/node_modules/qs/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/request/node_modules/qs/dist/qs.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/request/node_modules/qs/lib/formats.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/request/node_modules/qs/lib/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/request/node_modules/qs/lib/parse.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/request/node_modules/qs/lib/stringify.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/request/node_modules/qs/lib/utils.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/request/node_modules/qs/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/request/node_modules/qs/test/.eslintrc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/request/node_modules/qs/test/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/request/node_modules/qs/test/parse.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/request/node_modules/qs/test/stringify.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/request/node_modules/qs/test/utils.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/request/package.json" afterPath="$PROJECT_DIR$/node_modules/request/package.json" />
+      <change beforePath="$PROJECT_DIR$/node_modules/request/request.js" afterPath="$PROJECT_DIR$/node_modules/request/request.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/symbol-observable/CHANGELOG.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/symbol-observable/es/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/symbol-observable/es/ponyfill.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/symbol-observable/index.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/symbol-observable/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/symbol-observable/lib/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/symbol-observable/lib/ponyfill.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/symbol-observable/license" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/symbol-observable/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/symbol-observable/readme.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/node_modules/tunnel-agent/index.js" afterPath="$PROJECT_DIR$/node_modules/tunnel-agent/index.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/tunnel-agent/package.json" afterPath="$PROJECT_DIR$/node_modules/tunnel-agent/package.json" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
+      <change beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change beforePath="$PROJECT_DIR$/src/js/components/App.js" afterPath="$PROJECT_DIR$/src/js/components/App.js" />
+      <change beforePath="$PROJECT_DIR$/src/js/components/NavRow.js" afterPath="$PROJECT_DIR$/src/js/components/NavRow.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,9 +932,11 @@
       <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/js/components/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="195">
+              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -35,34 +951,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dist/index.html">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="90" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="90" />
-              <folding />
+            <state relative-caret-position="150">
+              <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+              <folding>
+                <marker date="1531309114132" expanded="true" signature="607:1150" ph="{&quot;babel-core&quot;: &quot;^6.26.3&quot;...}" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="90" lean-forward="false" selection-start-line="6" selection-start-column="90" selection-end-line="6" selection-end-column="90" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Tab3.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Tab3.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/js/components/Tab3.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
+            <state relative-caret-position="225">
               <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -94,8 +1000,18 @@
       <file leaf-file-name="NavRow.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/js/components/NavRow.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="48" column="1" lean-forward="false" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
+            <state relative-caret-position="225">
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PromoScreen.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/js/components/PromoScreen.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="3" column="29" lean-forward="false" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -114,8 +1030,8 @@
       <file leaf-file-name="style.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="295" column="26" lean-forward="false" selection-start-line="295" selection-start-column="26" selection-end-line="295" selection-end-column="26" />
+            <state relative-caret-position="405">
+              <caret line="27" column="38" lean-forward="false" selection-start-line="27" selection-start-column="2" selection-end-line="27" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -150,6 +1066,7 @@
       <find>bottom-info__block</find>
       <find>bottom-info</find>
       <find>bottom-info__2</find>
+      <find>web</find>
     </findStrings>
     <replaceStrings>
       <replace>src/img</replace>
@@ -186,18 +1103,18 @@
         <option value="$PROJECT_DIR$/src/js/components/MovieLine.js" />
         <option value="$PROJECT_DIR$/src/js/components/AddMovie.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
-        <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/src/js/components/NavRow.js" />
         <option value="$PROJECT_DIR$/src/js/components/Tab2.js" />
         <option value="$PROJECT_DIR$/src/js/components/Tab1.js" />
         <option value="$PROJECT_DIR$/src/js/components/Tab3.js" />
         <option value="$PROJECT_DIR$/src/js/components/Footer.js" />
-        <option value="$PROJECT_DIR$/src/js/components/App.js" />
         <option value="$PROJECT_DIR$/src/js/components/PromoScreen.js" />
         <option value="$PROJECT_DIR$/src/js/components/MainButton.js" />
         <option value="$PROJECT_DIR$/src/style.scss" />
         <option value="$PROJECT_DIR$/dist/index.html" />
         <option value="$PROJECT_DIR$/src/index.html" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/js/components/App.js" />
+        <option value="$PROJECT_DIR$/src/js/components/NavRow.js" />
       </list>
     </option>
   </component>
@@ -219,7 +1136,7 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="807" />
@@ -240,6 +1157,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -274,7 +1192,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -319,18 +1236,20 @@
       <updated>1530452343453</updated>
       <workItem from="1530452344702" duration="39367000" />
       <workItem from="1530725544188" duration="3786000" />
-      <workItem from="1530819147007" duration="11076000" />
+      <workItem from="1530819147007" duration="11456000" />
+      <workItem from="1531172160170" duration="357000" />
+      <workItem from="1531207316837" duration="2815000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54229000" />
+    <option name="totallyTimeSpent" value="57781000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17291667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17291667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -362,14 +1281,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/js/components/ReduxTest.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/components/ReduxTest.js" />
     <entry file="file://$PROJECT_DIR$/src/js/components/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -378,83 +1290,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/components/ReduxTest.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/components/MovieLine.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="36" lean-forward="false" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/redux/actions/push_fav.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/components/ReduxTest.js" />
+    <entry file="file://$PROJECT_DIR$/src/js/components/MovieLine.js" />
+    <entry file="file://$PROJECT_DIR$/src/js/redux/actions/push_fav.js" />
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="2" lean-forward="false" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#26#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/redux/reducers/Reducer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="1" lean-forward="true" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/redux/actions/add_movie.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/redux/actions/async_test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="2" lean-forward="false" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/redux/constants/constants.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/components/AddMovie.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="45" column="125" lean-forward="true" selection-start-line="45" selection-start-column="125" selection-end-line="45" selection-end-column="125" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/redux/reducers/Reducer.js" />
+    <entry file="file://$PROJECT_DIR$/src/js/redux/actions/add_movie.js" />
+    <entry file="file://$PROJECT_DIR$/src/js/redux/actions/async_test.js" />
+    <entry file="file://$PROJECT_DIR$/src/js/redux/constants/constants.js" />
+    <entry file="file://$PROJECT_DIR$/src/js/components/AddMovie.js" />
     <entry file="file://$PROJECT_DIR$/src/style.sass" />
     <entry file="file://$PROJECT_DIR$/docs/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -463,7 +1318,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -487,196 +1341,22 @@
     <entry file="file://$PROJECT_DIR$/src/js/components/Character.js" />
     <entry file="file://$PROJECT_DIR$/src/js/redux/actions/add_name.js" />
     <entry file="file://$PROJECT_DIR$/src/js/redux/reducers/Reducer2.js" />
-    <entry file="file://$PROJECT_DIR$/src/js/redux/reducers/combReducer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/redux/reducers/combReducer.js" />
     <entry file="file://$PROJECT_DIR$/src/js/redux/StoreGenerator.js" />
-    <entry file="file://$PROJECT_DIR$/src/js/redux/constants/constants.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/redux/actions/async_test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="2" lean-forward="false" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/redux/reducers/Reducer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="1" lean-forward="true" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/redux/actions/add_movie.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/components/MovieLine.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="36" lean-forward="false" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/redux/actions/push_fav.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/components/FavMovieList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="15" lean-forward="false" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/components/MovieList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/components/ReduxTest.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/components/AddMovie.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="45" column="125" lean-forward="false" selection-start-line="45" selection-start-column="125" selection-end-line="45" selection-end-column="125" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="668">
-          <caret line="58" column="30" lean-forward="false" selection-start-line="58" selection-start-column="30" selection-end-line="58" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding>
-            <marker date="1530972589128" expanded="true" signature="432:1036" ph="{&quot;babel-core&quot;: &quot;^6.26.3&quot;...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/redux/constants/constants.js" />
+    <entry file="file://$PROJECT_DIR$/src/js/redux/actions/async_test.js" />
+    <entry file="file://$PROJECT_DIR$/src/js/redux/reducers/Reducer.js" />
+    <entry file="file://$PROJECT_DIR$/src/js/redux/actions/add_movie.js" />
+    <entry file="file://$PROJECT_DIR$/src/js/components/MovieLine.js" />
+    <entry file="file://$PROJECT_DIR$/src/js/redux/actions/push_fav.js" />
+    <entry file="file://$PROJECT_DIR$/src/js/components/FavMovieList.js" />
+    <entry file="file://$PROJECT_DIR$/src/js/components/MovieList.js" />
+    <entry file="file://$PROJECT_DIR$/src/js/components/ReduxTest.js" />
+    <entry file="file://$PROJECT_DIR$/src/js/components/AddMovie.js" />
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="57" lean-forward="false" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
-          <folding>
-            <element signature="e#0#26#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/components/PromoScreen.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="29" lean-forward="false" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#26#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/components/Footer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="24" lean-forward="false" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/components/Tab3.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/components/Tab1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/components/MainButton.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="94" lean-forward="false" selection-start-line="4" selection-start-column="73" selection-end-line="4" selection-end-column="94" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/components/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/components/Tab2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/components/NavRow.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="48" column="1" lean-forward="false" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="295" column="26" lean-forward="false" selection-start-line="295" selection-start-column="26" selection-end-line="295" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -692,6 +1372,102 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="90" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="90" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="670">
+          <caret line="58" column="30" lean-forward="false" selection-start-line="58" selection-start-column="30" selection-end-line="58" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="38" lean-forward="false" selection-start-line="27" selection-start-column="2" selection-end-line="27" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+          <folding>
+            <marker date="1531309114132" expanded="true" signature="607:1150" ph="{&quot;babel-core&quot;: &quot;^6.26.3&quot;...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/components/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/components/Footer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="24" lean-forward="false" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/components/MainButton.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="94" lean-forward="false" selection-start-line="4" selection-start-column="73" selection-end-line="4" selection-end-column="94" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/components/NavRow.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/components/PromoScreen.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="3" column="29" lean-forward="false" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/components/Tab1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/components/Tab2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/components/Tab3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
           <folding />
         </state>
       </provider>
