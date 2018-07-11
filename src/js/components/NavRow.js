@@ -1,20 +1,19 @@
 import React, {Component} from 'react';
 
 export class NavRow extends Component{
-  constructor(props){
-    super(props);
-    this.start_rad = React.createRef();
-    this.changeTab = this.changeTab.bind(this);
-  }
+  start_rad = React.createRef();
+
   componentDidMount(){
     this.start_rad.current.checked = true
   }
-  to_nav(){
+
+  to_nav = () => {
     window.scrollY !== document.getElementById('nav-bar').offsetTop ? window.scrollTo(0, document.getElementById('nav-bar').offsetTop) : null;
-  }
-  changeTab(num){
+  };
+  changeTab = num => {
     return this.props.changeTab(num)
-  }
+  };
+
   render(){
     return(
       <nav>

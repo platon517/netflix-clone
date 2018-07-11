@@ -8,18 +8,16 @@ import {Footer} from "./Footer";
 
 
 export class App extends Component{
-  constructor(){
-    super();
-    this.changeTab = this.changeTab.bind(this);
-    this.state = {
-      nowTab: 1
-    }
-  }
-  changeTab(newTab){
+  state = {
+    nowTab: 1
+  };
+
+  changeTab = newTab => {
     this.setState({
       nowTab: newTab
     });
-  }
+  };
+
   render(){
     return(
       <div className="App">
